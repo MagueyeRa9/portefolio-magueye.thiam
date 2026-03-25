@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portefolio — Cheikh Magueye Thiam</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">CMT<span class="logo-point">.</span></a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="link ">Accueil</a></li>
+          <li><a href="index.html#apropos" class="link">À propos</a></li>
+          <li><a href="projets.html" class="link">Projets</a></li>
+          <li><a href="index.html#parcours" class="link">Parcours</a></li>
+          <li><a href="contact.html" class="link link--cta">Contact</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+
+      <!-- Menu hamburger CSS pur -->
+      <input type="checkbox" id="menu-burger" class="menu-burger">
+      <label for="menu-burger" class="hamburger">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav-mobile">
+        <ul class="nav-list">
+          <li><a href="index.html" class="link">Accueil</a></li>
+          <li><a href="index.html#apropos" class="link">À propos</a></li>
+          <li><a href="projets.html" class="link">Projets</a></li>
+          <li><a href="index.html#parcours" class="link">Parcours</a></li>
+          <li><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero__title">Mes <em>projets</em></h1>
+        <p class="page-hero__desc">
+          Voici les exercices et projets réalisés durant ma première année de Licence.
+          Chaque projet reflète une étape de mon apprentissage.
+        </p>
+      </div>
+      <div class="page-hero__blob"></div>
+    </section>
+
+    <section class="section projets">
+      <div class="container">
+        <div class="projets__grid">
+
+          <!-- Projet 1 -->
+          <article class="card">
+            <div class="card__img-wrap">
+              <img src="image/projet1.png" alt="Capture d'écran projet linux" class="card__img">
+              <div class="card__overlay">
+                <a href="projets/projet_linux.pdf" class="card__overlay-link">Voir le projet</a>
+              </div>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Projet Linux</h3>
+              <p class="card__desc">Ce projet simule un environnement
+                professionnel où les utilisateurs accèdent à une application web interne en utilisant
+                leurs identifiants d'entreprise stockés dans un annuaire LDAP.
+                .
+              </p>
+              <div class="card__tags">
+                <span class="tag tag--figma">linux</span>
+                <span class="tag tag--design">LDAP</span>
+                <span class="tag tag--design">Ubuntu.server</span>
+              </div>
+              <span class="card__status">Projet UNCHK</span>
+            </div>
+          </article>
+
+          <!-- Projet 2 -->
+          <article class="card">
+            <div class="card__img-wrap">
+              <img src="image/projet2.png" alt="Capture d'écran de ma première page HTML" class="card__img">
+              <div class="card__overlay">
+                <a href="projets/projet_administration_réseau.pdf" class="card__overlay-link">Voir le projet</a>
+              </div>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Projet Windows Server</h3>
+              <p class="card__desc">
+                Dans le cadre du cours Administration et Sécurité Windows, ce projet
+                porte sur la mise en œuvre des stratégies de groupe (GPO) afin d'améliorer la sécurité d'un
+                environnement
+                Windows basé sur Active Directory..
+              </p>
+              <div class="card__tags">
+                <span class="tag tag--html">Windows Server</span>
+                <span class="tag tag--css">Active Directory</span>
+                <span class="tag tag--design">GPO</span>
+              </div>
+              <span class="card__status">Projet UNCHK</span>
+            </div>
+          </article>
+
+          <!-- Projet 3 -->
+          <article class="card">
+            <div class="card__img-wrap">
+              <img src="image/projet3.png" alt="Capture d'écran du formulaire CSS" class="card__img">
+              <div class="card__overlay">
+                <a href="projets/projet_algorithme.pdf" class="card__overlay-link">Voir le projet</a>
+              </div>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Projet Algorithmique</h3>
+              <p class="card__desc">
+                Concevoir un programme algorithmique permettant de gérer les patients d’un
+                centre de santé à l’aide d’enregistrements, de tableaux non pleins, et de
+                procédures/fonctions, en intégrant des algorithmes de tri et de recherche pour optimiser la gestion des
+                données.
+
+              </p>
+              <div class="card__tags">
+                <span class="tag tag--html">Algorithmique</span>
+                <span class="tag tag--css">Codeblox</span>
+                <span class="tag tag--css">Flexbox</span>
+              </div>
+              <span class="card__status">Projet UNCHK</span>
+            </div>
+          </article>
+
+          <!-- Projet 4 -->
+          <article class="card">
+            <div class="card__img-wrap">
+              <img src="image/projet4.jpg" alt="Capture d'écran de la page profil responsive" class="card__img">
+              <div class="card__overlay">
+                <a href="projets/Projet_programmation.pdf" class="card__overlay-link">Voir le projet</a>
+              </div>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Projet programmation</h3>
+              <p class="card__desc">
+                Dans le cadre du module de
+                programmation en langage C, vous
+                devez réaliser un mini système de
+                gestion des accès sécurisés. Ce projet
+                s’inscrit dans le domaine de la
+                cybersécurité et vise à simuler la
+                gestion d’utilisateurs dans un
+                système informatique.
+              </p>
+              <div class="card__tags">
+                <span class="tag tag--html">Language C</span>
+                <span class="tag tag--css">Algobox</span>
+                <span class="tag tag--design">Flexbox</span>
+              </div>
+              <span class="card__status">Projet UNCHK</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="logo">CMT<span class="logo-point">.</span></a>
+          <p class="footer__tagline">Cheikh Magueye Thiam — 2026</p>
+        </div>
+
+
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#apropos">À propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+
+        <div class="footer__links">
+          <a href="mailto:cheikhmagueye2003@gmail.com" class="footer__social"><i class="fa-solid fa-envelope"></i>
+            <div>Email</div>
+          </a>
+          <a href="https://github.com/MagueyeRa9" target="_blank" class="footer__social"><i
+              class="fa-brands fa-github"></i>
+            <div>GitHub</div>
+          </a>
+          <a href="https://linkedin.com/in/magueye-thiam-309715344" target="_blank" class="footer__social"><i
+              class="fa-brands fa-linkedin"></i>
+            <div>LinkedIn</div>
+          </a>
+        </div>
+
+
+
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Cheikh Magueye Thiam. Tous droits réservés.</span>
+        <a href="#accueil" class="footer__top">↑ Retour en haut</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

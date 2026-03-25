@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Cheikh Magueye Thiam</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">CMT<span class="logo-point">.</span></a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="link">Accueil</a></li>
+          <li><a href="index.html#apropos" class="link">À propos</a></li>
+          <li><a href="projets.html" class="link">Projets</a></li>
+          <li><a href="index.html#parcours" class="link">Parcours</a></li>
+          <li><a href="contact.html" class="link link--cta">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Menu hamburger CSS pur -->
+      <input type="checkbox" id="menu-burger" class="menu-burger">
+      <label for="menu-burger" class="hamburger">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav-mobile">
+        <ul class="nav-list">
+          <li><a href="index.html" class="link">Accueil</a></li>
+          <li><a href="index.html#apropos" class="link">À propos</a></li>
+          <li><a href="projets.html" class="link">Projets</a></li>
+          <li><a href="index.html#parcours" class="link">Parcours</a></li>
+          <li><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+
+        <h1 class="page-hero__title">Me <em>contacter</em></h1>
+        <p class="page-hero__desc">
+          Une question, une idée, une collaboration ? N'hésite pas à m'écrire.
+        </p>
+      </div>
+      <div class="page-hero__blob"></div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container">
+        <div class="contact__grid">
+
+          <!-- Formulaire -->
+          <div class="contact__form-wrap">
+            <form class="contact__form" action="#" method="post">
+
+              <div class="form-group">
+                <label for="nom" class="form-label">Nom complet</label>
+                <input type="text" id="nom" name="nom" class="form-input" placeholder="Votre nom" required>
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="email" class="form-label">Adresse email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="votre@email.com" required>
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="sujet" class="form-label">Sujet</label>
+                <select id="sujet" name="sujet" class="form-input form-select">
+                  <option value="" disabled selected>Choisissez un sujet</option>
+                  <option value="collaboration">Collaboration</option>
+                  <option value="stage">Proposition de stage</option>
+                  <option value="question">Question technique</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-input form-textarea"
+                  placeholder="Écrivez votre message ici..." rows="5" required></textarea>
+              </div>
+              <button type="submit" class="bouton btn--primary bouton--full">Envoyer le message <i
+                  class="fa-solid fa-envelope"></i></button>
+            </form>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Infos de contact -->
+          <div class="contact__info">
+            <h3 class="contact__info-title">Coordonnées</h3>
+            <p class="contact__info-text">
+              Tu peux aussi me retrouver directement sur ces plateformes :
+            </p>
+            <ul class="contact__links">
+              <li class="contact__link-item">
+                <span class="contact__link-icon"><i class="fa-solid fa-envelope"></i></span>
+                <div>
+                  <span class="contact__link-label">Email</span>
+                  <a href="mailto:cheikh@example.com" class="contact__link-val">cheikhmagueye2003@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact__link-item">
+                <span class="contact__link-icon"><i class="fa-brands fa-github"></i></span>
+                <div>
+                  <span class="contact__link-label">GitHub</span>
+                  <a href="https://github.com/" target="_blank" class="contact__link-val">github.com/MagueyeRa9</a>
+                </div>
+              </li>
+              <li class="contact__link-item">
+                <span class="contact__link-icon"><i class="fa-brands fa-linkedin"></i></span>
+                <div>
+                  <span class="contact__link-label">LinkedIn</span>
+                  <a href="https://linkedin.com/" target="_blank"
+                    class="contact__link-val">linkedin.com/in/magueye-thiam</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="contact__availability">
+              <div class="availability-dot"></div>
+              <span>Disponible pour des projets &amp; collaborations</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="logo">CMT<span class="logo-point">.</span></a>
+          <p class="footer__tagline">Cheikh Magueye Thiam — 2026</p>
+        </div>
+
+
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#apropos">À propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+
+        <div class="footer__links">
+          <a href="mailto:cheikhmagueye2003@gmail.com" class="footer__social"><i class="fa-solid fa-envelope"></i>
+            <div>Email</div>
+          </a>
+          <a href="https://github.com/MagueyeRa9" target="_blank" class="footer__social"><i
+              class="fa-brands fa-github"></i>
+            <div>GitHub</div>
+          </a>
+          <a href="https://linkedin.com/in/magueye-thiam-309715344" target="_blank" class="footer__social"><i
+              class="fa-brands fa-linkedin"></i>
+            <div>LinkedIn</div>
+          </a>
+        </div>
+
+
+
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Cheikh Magueye Thiam. Tous droits réservés.</span>
+        <a href="#accueil" class="footer__top">↑ Retour en haut</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
